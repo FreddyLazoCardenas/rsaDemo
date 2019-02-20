@@ -20,8 +20,8 @@ android {
         sourceCompatibility 1.8
     }
     buildTypes {
-        release {
-            minifyEnabled false
+        debug {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
